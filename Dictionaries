@@ -1,0 +1,93 @@
+#Dictionaries have curly brackets and they have keys and values
+
+
+#Training 1
+
+iphone = {
+	"Brand": "Apple",
+	"Model": "Iphone 11",
+	"Date made": "2019"
+}
+print(iphone)
+
+
+#Training 2
+
+iphone = {
+	"Brand": "Apple",
+	"Model": "Iphone 11",
+	"Date made": 2019
+}
+j = iphone["Date made"]
+print(j)
+
+#Prints out 2019
+
+#Training 3
+
+iphone = {
+	"Brand": "Apple",
+	"Model": "Iphone 11",
+	"Date made": 2019
+}
+iphone["Date made"] = 2020
+
+#Changes that data from 2019 to 2020
+
+#Training 4
+
+iphone = {
+	"Brand": "Apple",
+	"Model": "Iphone 11",
+	"Date made": 2019
+}
+
+for x in iphone:
+	print(x)
+
+#Prints all key names in the dictionary one by one  (ex. "Brand": "Apple" ---- Brand is the Key name and Apple is the Value
+
+#Training 5
+
+iphone = {
+	"Brand": "Apple",
+	"Model": "Iphone 11",
+	"Date made": 2019
+}
+
+for x in iphone:
+	print(iphone[x])
+
+#Prints the values in the dictionary
+
+
+iphone = {
+	"Brand": "Apple",
+	"Model": "Iphone 11",
+	"Date made": 2019
+}
+
+for x,y in iphone.items():
+	print(x,y)
+
+#Prints both keys and values
+
+_________________________________________________________________________________________________________________________________
+
+#Tuples are exactly like lists but they are unchangeable and are written in round brackets ()
+#Lists are [] Dictionaries are {} and Tuples are ()
+
+
+#Training 1
+
+Books = ("Think and grow rich","Learn Python Novice to Professional","Finance 101")
+print(Books)
+
+
+
+#All other operations are pretty much exactly like Lists
+
+
+
+
+
